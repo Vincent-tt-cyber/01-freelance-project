@@ -1,0 +1,40 @@
+.step-card {
+  background-color: #141a25;
+  border-radius: 24px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: #1c2432;
+  }
+  &__icon {
+    max-width: 50px;
+    max-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 42px;
+  }
+  &__count {
+    text-align: center;
+    background-color: #fa0369;
+    border-radius: 63px;
+    padding: 5px 14px;
+    // max-width: 70px;
+    // max-height: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #7e8597;
+  }
+}

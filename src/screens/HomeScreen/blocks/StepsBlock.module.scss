@@ -1,0 +1,28 @@
+.steps-block {
+  // background-color: #fff;
+  padding: 90px 0;
+  &-header {
+  }
+  &__red-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fa0369;
+    margin: 0 0 18px 0;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 42px;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 60px 0;
+  }
+  &-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px 30px;
+  }
+}
