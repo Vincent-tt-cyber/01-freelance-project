@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./WhyUsBlock.module.scss";
-import WhyUsBlockImage from "../../../assets/images/WhyUsBlockIMG.jpg";
-import Button from "../../../components/UI/Button/Button";
+// import WhyUsBlockImage from "../../../assets/images/WhyUsBlockIMG.jpg";
+import Button from "../../../../components/UI/Button/Button";
 
 const WhyUsBlock = () => {
   return (

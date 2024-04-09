@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./MainBlock.module.scss";
-import Button from "../../../components/UI/Button/Button";
-import MainBlockImage from "../../../assets/images/main-block-image.png";
+import Button from "../../../../components/UI/Button/Button";
+// import MainBlockImage from ".";
 
 const MainBlock = () => {
   return (
@@ -21,10 +21,11 @@ const MainBlock = () => {
               </div>
             </div>
             {/* Image */}
-            <div className={styles["main-block__image"]}>
-              <div className={styles["main-block__gradient"]}>
-                <img src={MainBlockImage} alt="Tik-Tok Image" />
-              </div>
+            <div className={styles["main-block__gradient"]}>
+              <img
+                src="https://i.pinimg.com/564x/3c/6b/41/3c6b411d45e9b6ec927ee6624e755972.jpg"
+                alt="Tik-Tok Image"
+              />
             </div>
           </div>
         </div>
