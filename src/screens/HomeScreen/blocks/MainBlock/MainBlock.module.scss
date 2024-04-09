@@ -7,12 +7,14 @@
   }
   &__description {
     max-width: 523px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
-    width: 100%;
+    margin-right: 50px;
     h1 {
+      font-size: clamp(32px, 1.714rem + 1.43vw, 48px);
       font-family: DM Sans, sans-serif;
       font-weight: 400;
       /* width: 100%; */
@@ -21,7 +23,7 @@
     small {
       display: inline-block;
       text-align: center;
-      font-size: 13px;
+      font-size: clamp(12px, 0.732rem + 0.09vw, 13px);
       font-weight: 400;
       color: #7e8597;
       margin: 10px 0 0 0;
@@ -30,9 +32,8 @@
       display: flex;
       flex-direction: column;
       text-align: center;
+      // width: 100%;
     }
-  }
-  &__image {
   }
   &__gradient {
     max-width: 560px;
@@ -52,6 +53,58 @@
       max-width: 400px;
       width: 100%;
       border-radius: 24px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-block {
+    &__gradient {
+      max-width: 460px;
+      max-height: 460px;
+      img {
+        max-width: 300px;
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .main-block {
+    &__description {
+      margin-right: 30px;
+    }
+    &__gradient {
+      max-width: 327px;
+      max-height: 327px;
+      img {
+        max-width: 220px;
+      }
+    }
+  }
+}
+@media (max-width: 700px) {
+  .main-block {
+    padding: 80px 0px 80px 0px;
+    &-row {
+      flex-direction: column-reverse;
+    }
+    &__description {
+      margin: 0;
+      text-align: center;
+
+      h1 {
+        margin: 66px 0 30px 0;
+        text-align: center;
+      }
+      &-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        button {
+          text-align: center;
+        }
+      }
     }
   }
 }

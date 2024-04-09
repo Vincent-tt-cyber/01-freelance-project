@@ -2,7 +2,7 @@
   padding: 90px 0;
   &__title {
     font-weight: 500;
-    font-size: 42px;
+    font-size: clamp(32px, 1.821rem + 0.89vw, 42px);
     text-align: center;
     color: #fff;
     margin-bottom: 140px;
@@ -34,21 +34,80 @@
   }
 
   &-description {
-    text-align-last: left;
+    // text-align-last: left;
     // max-width: 460px;
     // width: 100%;
     &__title {
       font-weight: 500;
-      font-size: 36px;
+      font-size: clamp(24px, 1.286rem + 1.07vw, 36px);
       color: #fff;
       margin-bottom: 16px;
     }
     &__text {
       font-weight: 400;
-      font-size: 21px;
+      font-size: clamp(16px, 0.911rem + 0.45vw, 21px);
       line-height: 150%;
       color: #7e8597;
       margin-bottom: 48px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .whyus-block {
+    &__title {
+      margin-bottom: 100px;
+    }
+    &-row {
+      grid-gap: 0px 30px;
+    }
+    &__gradient {
+      max-width: 450px;
+      max-height: 450px;
+    }
+    &__image {
+      max-width: 280px;
+    }
+  }
+}
+@media (max-width: 800px) {
+  .whyus-block {
+    padding: 30px 0;
+    &__title {
+      margin-bottom: 100px;
+    }
+    &__gradient {
+      max-width: 327px;
+      max-height: 327px;
+    }
+    &__image {
+      max-width: 200px;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .whyus-block {
+    &-row {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &__gradient {
+      max-width: 327px;
+      max-height: 327px;
+      width: 100%;
+      align-items: center;
+      margin-bottom: 60px;
+    }
+    &__image {
+      max-width: 220px;
+      border-radius: 16px;
+    }
+    &-description {
+      &__text {
+        margin-bottom: 26px;
+      }
     }
   }
 }

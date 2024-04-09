@@ -10,13 +10,13 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
+    <div className="wrapper">
       <Header />
       <Routes>
         <Route path="/" element={<HomeScreen />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 

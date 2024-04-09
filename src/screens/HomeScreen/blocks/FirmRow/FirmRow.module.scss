@@ -1,6 +1,33 @@
-.firm-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+.firm {
+  padding: 90px 0;
+  &-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px 30px;
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .firm {
+    padding: 45px 0;
+    &-row {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+@media (max-width: 768px) {
+  .firm {
+    padding: 0;
+    &-row {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 }

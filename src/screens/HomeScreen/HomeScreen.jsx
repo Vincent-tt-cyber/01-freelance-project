@@ -16,10 +16,10 @@ const HomeScreen = () => {
       <FirmRow />
       <StepsBlock />
       <WhyUsBlock />
-      <AdsBlock />
-      <EndorsedBlock />
-      <WhyTikTokBlock />
-      <LetsGetMovingBlock />
+      {/* <AdsBlock /> */}
+      {/* <EndorsedBlock /> */}
+      {/* <WhyTikTokBlock /> */}
+      {/* <LetsGetMovingBlock /> */}
     </>
   );
 };

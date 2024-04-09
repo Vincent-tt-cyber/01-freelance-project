@@ -7,7 +7,7 @@ import hairBurstIMG from "../../../../assets/images/hair-burst.svg";
 
 const FirmRow = () => {
   return (
-    <>
+    <div className={styles["firm"]}>
       <div className="container">
         <ul className={styles["firm-row"]}>
           <li>
@@ -24,7 +24,7 @@ const FirmRow = () => {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 

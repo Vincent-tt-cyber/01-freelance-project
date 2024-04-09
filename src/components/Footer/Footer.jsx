@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container">
           <div className={styles["footer-row"]}>
             <span className={styles["footer-сopyright"]}>
-              © 2020 Inc. All rights reserved . Vincent Code.
+              © 2020 Inc. All rights reserved
             </span>
             <ul className={styles["footer-social"]}>
               <li>

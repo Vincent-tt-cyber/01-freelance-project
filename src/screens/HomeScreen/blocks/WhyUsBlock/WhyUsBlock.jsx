@@ -9,16 +9,14 @@ const WhyUsBlock = () => {
       <div className="container">
         <h1 className={styles["whyus-block__title"]}>Why us?</h1>
         <div className={styles["whyus-block-row"]}>
-          <div>
-            <div className={styles["whyus-block__gradient"]}>
-              <img
-                className={styles["whyus-block__image"]}
-                src={
-                  "https://i.pinimg.com/564x/f1/aa/53/f1aa53f33d9c00e2b110632940111ba3.jpg"
-                }
-                alt=""
-              />
-            </div>
+          <div className={styles["whyus-block__gradient"]}>
+            <img
+              className={styles["whyus-block__image"]}
+              src={
+                "https://i.pinimg.com/564x/f1/aa/53/f1aa53f33d9c00e2b110632940111ba3.jpg"
+              }
+              alt=""
+            />
           </div>
           <div className={styles["whyus-block-description"]}>
             <h3 className={styles["whyus-block-description__title"]}>
@@ -31,7 +29,9 @@ const WhyUsBlock = () => {
               (purchasers) through our modular creative framework, which allows
               us to maximize the lifecycle of a creative..
             </p>
-            <Button type="primary">Book a Free Strategy Session</Button>
+            <div>
+              <Button type="primary">Book a Free Strategy Session</Button>
+            </div>
           </div>
         </div>
       </div>

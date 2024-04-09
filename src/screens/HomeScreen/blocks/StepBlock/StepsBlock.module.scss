@@ -1,8 +1,6 @@
 .steps-block {
   // background-color: #fff;
   padding: 90px 0;
-  &-header {
-  }
   &__red-title {
     text-align: center;
     font-weight: 500;
@@ -15,7 +13,7 @@
   }
   &__title {
     font-weight: 500;
-    font-size: 42px;
+    font-size: clamp(32px, 1.821rem + 0.89vw, 42px);
     text-align: center;
     color: #fff;
     margin: 0 0 60px 0;
@@ -24,5 +22,29 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0px 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .steps-block {
+    &-row {
+      grid-gap: 0px 10px;
+    }
+  }
+}
+@media (max-width: 800px) {
+  .steps-block {
+    &-row {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px 20px;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .steps-block {
+    &-row {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 20px 20px;
+    }
   }
 }

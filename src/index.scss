@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -30,7 +34,14 @@ body {
   color: #fff;
 }
 
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   max-width: 1145px;
   margin: 0 auto;
+  padding: 0 15px;
 }

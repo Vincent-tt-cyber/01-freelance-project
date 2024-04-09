@@ -3,4 +3,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-align: center;
+  font-size: clamp(14px, 0.804rem + 0.36vw, 18px);
 }
