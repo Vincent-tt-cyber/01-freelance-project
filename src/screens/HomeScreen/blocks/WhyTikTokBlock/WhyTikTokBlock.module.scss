@@ -1,0 +1,40 @@
+.why-tiktok-block {
+  background-color: #fff;
+  padding: 180px 0px 90px 0px;
+  &-row {
+    background-color: #141a25;
+    border-radius: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  &-decription {
+    padding: 60px 0px 60px 130px;
+    width: 100%;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 24px;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  &__iphone {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  &__image {
+    border-radius: 40px 40px 0px 0px;
+    overflow: hidden;
+    position: absolute;
+    bottom: -5px;
+    // left: 50px;
+    // transform: translate(-50%, 0);
+  }
+}

@@ -6,6 +6,7 @@ import StepsBlock from "./blocks/StepBlock/StepsBlock";
 import WhyUsBlock from "./blocks/WhyUsBlock/WhyUsBlock";
 import AdsBlock from "./blocks/AdsBlock/AdsBlock";
 import EndorsedBlock from "./blocks/EndorsedBlock/EndorsedBlock";
+import WhyTikTokBlock from "./blocks/WhyTikTokBlock/WhyTikTokBlock";
 
 const HomeScreen = () => {
   return (
@@ -16,6 +17,7 @@ const HomeScreen = () => {
       <WhyUsBlock />
       <AdsBlock />
       <EndorsedBlock />
+      <WhyTikTokBlock />
     </>
   );
 };
