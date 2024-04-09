@@ -1,0 +1,33 @@
+.lets-get-moving {
+  padding: 120px 0;
+  background-color: #fff;
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-description {
+    max-width: 460px;
+    width: 100%;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 42px;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 150%;
+    color: #7e8597;
+  }
+  &-image {
+    max-width: 558px;
+    border-radius: 24px;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+}

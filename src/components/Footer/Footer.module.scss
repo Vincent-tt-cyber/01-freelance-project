@@ -1,0 +1,23 @@
+.footer {
+  background: #f9f9fb;
+  padding: 50px 0;
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-сopyright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #1a1a1a8f;
+  }
+  &-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      margin-left: 32px;
+    }
+  }
+}
