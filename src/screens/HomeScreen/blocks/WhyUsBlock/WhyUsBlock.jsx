@@ -29,7 +29,7 @@ const WhyUsBlock = () => {
               (purchasers) through our modular creative framework, which allows
               us to maximize the lifecycle of a creative..
             </p>
-            <div>
+            <div className={styles["whyus-block-description__btn"]}>
               <Button type="primary">Book a Free Strategy Session</Button>
             </div>
           </div>

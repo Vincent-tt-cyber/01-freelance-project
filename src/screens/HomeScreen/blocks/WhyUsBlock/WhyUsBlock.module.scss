@@ -108,6 +108,11 @@
       &__text {
         margin-bottom: 26px;
       }
+      &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
 }
