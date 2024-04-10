@@ -26,7 +26,7 @@ const EndorsedBlock = () => {
                 Beta features on the platform and have direct and dedicated
                 support from the Tiktok Team.
               </p>
-              <div>
+              <div className={styles["endorsed-block-description__btn"]}>
                 <Button type="primary">Book a Free Strategy Session</Button>
               </div>
             </div>

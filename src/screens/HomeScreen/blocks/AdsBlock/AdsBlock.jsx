@@ -34,7 +34,7 @@ const AdsBlock = () => {
                   </p>
                 </div>
               </div>
-              <div>
+              <div className={styles["ads-block__btn"]}>
                 <Button type="primary">Book a Free Strategy Session</Button>
               </div>
             </div>
