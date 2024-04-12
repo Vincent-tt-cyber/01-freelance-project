@@ -18,7 +18,7 @@ const HomeScreen = () => {
       <WhyUsBlock />
       <AdsBlock />
       <EndorsedBlock />
-      {/* <WhyTikTokBlock /> */}
+      <WhyTikTokBlock />
       {/* <LetsGetMovingBlock /> */}
     </>
   );

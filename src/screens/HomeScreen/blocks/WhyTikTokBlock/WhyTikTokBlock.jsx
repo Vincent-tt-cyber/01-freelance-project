@@ -22,10 +22,12 @@ const WhyTikTokBlock = () => {
                 TikTok is one of the most active communities in the history of
                 the Internet.
               </p>
-              <Button type="primary">
-                Book a Free Strategy Session{" "}
-                <IoMdArrowForward style={{ marginLeft: 10 }} size={21} />
-              </Button>
+              <div className={styles["why-tiktok-block__btn"]}>
+                <Button type="primary">
+                  Book a Free Strategy Session{" "}
+                  <IoMdArrowForward style={{ marginLeft: 10 }} size={21} />
+                </Button>
+              </div>
             </div>
             <div className={styles["why-tiktok-block__iphone"]}>
               <div className={styles["why-tiktok-block__image"]}>
